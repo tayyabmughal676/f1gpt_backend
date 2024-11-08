@@ -1,9 +1,9 @@
 # Formula F1 GPT App
 
 ### Using [Langchain](https://js.langchain.com/docs/introduction/), [Puppeteer](https://pptr.dev/), [Datastax](https://www.datastax.com/), and [OpenAI](https://openai.com/)
-
+---
 Code snippets are written in [TypeScript](https://www.typescriptlang.org/)
-
+---
 ```typescript
 /// openai embeddings model 
 openai.embeddings.create({
@@ -13,7 +13,7 @@ openai.embeddings.create({
 })
 
 ```
-
+---
 ```typescript
 // sample data and urls to scrape
 const f1Data = [
@@ -31,7 +31,7 @@ const f1Data = [
     "https://www.gptoday.com/news/recent/",
 ];
 ```
-
+---
 ```typescript
 // prompt and model
 openai.chat.completions.create({
@@ -56,7 +56,10 @@ openai.chat.completions.create({
     ],
 });
 ```
-
+---
+## Tayyab Mughal
 ### Senior Full Stack AI & ML Engineer
 Building intelligent solutions with AI, Machine Learning, and Full Stack technologies. Expertise in TensorFlow, PyTorch, Flutter (iOS, Android, and Web), Node.js, Python FastAPI, Vector Databases, and Cloud platforms (AWS, Azure, DigitalOcean, Vercel, and Google Cloud)   .
 ###### [Upwork](https://www.linkedin.com/in/mrtayyabmughal/) | [GitHub](https://github.com/tayyabmughal676/f1gpt_backend) | [LinkedIn](https://www.linkedin.com/in/mrtayyabmughal/) 
+
+----
