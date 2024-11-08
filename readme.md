@@ -33,6 +33,7 @@ const f1Data = [
 ```
 
 ```typescript
+// prompt and model
 openai.chat.completions.create({
     model: "gpt-4o",
     messages: [
@@ -56,6 +57,6 @@ openai.chat.completions.create({
 });
 ```
 
-### Senior Full Stack AI and Machine Learning Engineer
-
-###### [GitHub](https://github.com/tayyabmughal676/f1gpt) | [LinkedIn](https://www.linkedin.com/in/mrtayyabmughal/) | [Upwork](https://www.linkedin.com/in/mrtayyabmughal/)
+### Senior Full Stack AI & ML Engineer
+Building intelligent solutions with AI, Machine Learning, and Full Stack technologies. Expertise in TensorFlow, PyTorch, Flutter (iOS, Android, and Web), Node.js, Python FastAPI, Vector Databases, and Cloud platforms (AWS, Azure, DigitalOcean, Vercel, and Google Cloud)   .
+###### [Upwork](https://www.linkedin.com/in/mrtayyabmughal/) | [GitHub](https://github.com/tayyabmughal676/f1gpt_backend) | [LinkedIn](https://www.linkedin.com/in/mrtayyabmughal/) 
