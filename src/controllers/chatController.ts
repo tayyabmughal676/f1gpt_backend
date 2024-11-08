@@ -160,7 +160,8 @@ export const chatWithPrompt = async (req: Request, res: Response) => {
         })
 
         try {
-            const collection = db.collection("f1gpt");
+            // @ts-ignore
+            const collection = db.collection(ASTRA_DB_COLLECTION);
             // @ts-ignore
             const cursor = collection.find(null, {
                 sort: {
