@@ -1,0 +1,38 @@
+{
+  "name": "f1gpt",
+  "version": "1.0.0",
+  "description": "F1 GPT ",
+  "main": "src/index.ts",
+  "author": "tayyabmughal676",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "pm2-start": "pm2 start src/index.ts --name='f1gpt_backend' --interpreter='ts-node'",
+    "test": "echo \"Error: no test specified\""
+  },
+  "dependencies": {
+    "@datastax/astra-db-ts": "^1.1.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "langchain": "0.1.36",
+    "nodemon": "^3.1.7",
+    "openai": "^4.71.1",
+    "pino": "^9.5.0",
+    "pino-pretty": "^12.1.0",
+    "puppeteer": "^23.7.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "@types/nodemon": "^1.19.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
